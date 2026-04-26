@@ -1,0 +1,74 @@
+/* Prime badge — appended inside card */
+.imdb-tile-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 99999;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1.5px solid #f5c518;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  pointer-events: auto;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(-4px) scale(0.9);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.imdb-tile-badge.itb-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Hotstar floating badge — fixed to viewport */
+#imdb-hs-float {
+  display: none;
+  position: fixed;
+  z-index: 2147483647;
+  align-items: center;
+  gap: 5px;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1.5px solid #f5c518;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  pointer-events: auto;
+  cursor: pointer;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+#imdb-hs-float.itb-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Shared logo and score styles */
+.itb-logo {
+  background: #f5c518;
+  color: #000;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.2px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: "Arial Black", Arial, sans-serif;
+  line-height: 1.4;
+}
+
+.itb-score {
+  color: #f5c518;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.3px;
+}
