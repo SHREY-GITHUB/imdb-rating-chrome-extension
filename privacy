@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — IMDB Rating Chrome Extension</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #f5c518;
+      --bg: #0a0a0f;
+      --surface: #111118;
+      --border: #222230;
+      --text: #e8e8f0;
+      --muted: #7070a0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 32px 0;
+      text-align: center;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .logo-badge {
+      background: var(--gold);
+      color: #000;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .logo-name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      color: var(--text);
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 400;
+      line-height: 1.2;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    .date {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 56px;
+      letter-spacing: 0.3px;
+    }
+
+    .tl-dr {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold);
+      border-radius: 8px;
+      padding: 24px 28px;
+      margin-bottom: 56px;
+    }
+
+    .tl-dr-label {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .tl-dr p {
+      font-size: 16px;
+      color: var(--text);
+    }
+
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: var(--text);
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      color: #b0b0cc;
+      margin-bottom: 16px;
+      font-size: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 16px;
+    }
+
+    ul li {
+      color: #b0b0cc;
+      font-size: 15px;
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 12px;
+      top: 8px;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(245, 197, 24, 0.3);
+      transition: border-color 0.2s;
+    }
+
+    a:hover { border-color: var(--gold); }
+
+    .contact-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px 28px;
+      margin-top: 56px;
+      text-align: center;
+    }
+
+    .contact-box p {
+      margin: 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 32px 24px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="#">
+    <span class="logo-badge">IMDb</span>
+    <span class="logo-name">IMDB Rating Chrome Extension</span>
+  </a>
+</header>
+
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="date">Effective date: April 2026 &nbsp;·&nbsp; Last updated: April 2026</p>
+
+  <div class="tl-dr">
+    <div class="tl-dr-label">TL;DR</div>
+    <p>IMDB Rating Chrome Extension does not collect, store, or share any personal data. The only external request it makes is fetching a movie rating from OMDb using the title of a film. That's it.</p>
+  </div>
+
+  <section>
+    <h2>What IMDB Rating Chrome Extension Does</h2>
+    <p>IMDB Rating Chrome Extension is a Chrome browser extension that displays IMDB ratings on movie and TV show thumbnails on Prime Video and JioHotstar. When you hover over a title, the extension reads the title name from the page and fetches its rating from the OMDb API.</p>
+  </section>
+
+  <section>
+    <h2>Data We Collect</h2>
+    <p>IMDB Rating Chrome Extension collects <strong>no personal data whatsoever</strong>. Specifically:</p>
+    <ul>
+      <li>We do not collect your name, email, or any identifying information</li>
+      <li>We do not track which movies or shows you hover over</li>
+      <li>We do not record your browsing history</li>
+      <li>We do not use cookies or tracking pixels</li>
+      <li>We do not run any analytics</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>External Requests</h2>
+    <p>The only external network request IMDB Rating Chrome Extension makes is to <strong>api.omdbapi.com</strong> — the Open Movie Database API. This request contains only the title of the movie or show you hovered over (e.g. "Inception"), and nothing else. No user ID, no device ID, no IP address is sent by us.</p>
+    <p>OMDb's own privacy policy governs how they handle requests: <a href="https://www.omdbapi.com" target="_blank">omdbapi.com</a></p>
+  </section>
+
+  <section>
+    <h2>Local Storage</h2>
+    <p>IMDB Rating Chrome Extension caches IMDB ratings locally in your browser using <code>chrome.storage.local</code> for up to 7 days. This data (movie title → rating) never leaves your device and is only used to avoid redundant API calls.</p>
+  </section>
+
+  <section>
+    <h2>Permissions</h2>
+    <p>IMDB Rating Chrome Extension requests the following browser permissions:</p>
+    <ul>
+      <li><strong>storage</strong> — to cache ratings locally on your device</li>
+      <li><strong>host permissions for primevideo.com, amazon.com, hotstar.com</strong> — to inject the rating badge UI on these sites</li>
+      <li><strong>host permissions for omdbapi.com</strong> — to fetch rating data</li>
+    </ul>
+    <p>These permissions are the minimum required for the extension to function.</p>
+  </section>
+
+  <section>
+    <h2>Third-Party Services</h2>
+    <p>IMDB Rating Chrome Extension uses the <a href="https://www.omdbapi.com" target="_blank">OMDb API</a> (Open Movie Database) to retrieve IMDB ratings. OMDb is a free, community-driven database. We are not affiliated with OMDb, IMDB, Amazon Prime Video, or JioHotstar.</p>
+  </section>
+
+  <section>
+    <h2>Children's Privacy</h2>
+    <p>IMDB Rating Chrome Extension does not knowingly collect data from anyone, including children under 13. Since we collect no data at all, this is inherently satisfied.</p>
+  </section>
+
+  <section>
+    <h2>Changes to This Policy</h2>
+    <p>If this privacy policy changes, the updated version will be posted here with a new effective date. Since we collect no data, changes are unlikely.</p>
+  </section>
+
+  <div class="contact-box">
+    <p>Questions? Open an issue on <a href="https://github.com/shrey-github/imdb-rating-chrome-extension" target="_blank">GitHub</a>.</p>
+  </div>
+</main>
+
+<footer>
+  IMDB Rating Chrome Extension &nbsp;·&nbsp; MIT License &nbsp;·&nbsp; Not affiliated with IMDB, Amazon, or JioHotstar
+</footer>
+
+</body>
+</html>
