@@ -2,7 +2,8 @@
 
 > Hover any title on Prime Video or JioHotstar and instantly see its IMDB rating — right on the thumbnail.
 
-![IMDB Rating Chrome Extension Banner](docs/banner.png)
+<img width="967" height="599" alt="image" src="https://github.com/user-attachments/assets/83572fe2-0e97-443a-8733-cc4066040e2a" />
+
 
 ---
 
