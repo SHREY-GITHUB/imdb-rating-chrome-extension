@@ -1,14 +1,14 @@
-# StreamDB — IMDB Ratings for Prime Video & Hotstar
+# IMDB Rating Chrome Extension
 
 > Hover any title on Prime Video or JioHotstar and instantly see its IMDB rating — right on the thumbnail.
 
-![StreamDB Banner](docs/banner.png)
+![IMDB Rating Chrome Extension Banner](docs/banner.png)
 
 ---
 
 ## What It Does
 
-**StreamDB** is a lightweight Chrome/Arc extension that overlays IMDB ratings on movie and show thumbnails while you browse Prime Video and JioHotstar. No more opening a new tab to check ratings before watching.
+**IMDB Rating Chrome Extension** is a lightweight Chrome/Arc extension that overlays IMDB ratings on movie and show thumbnails while you browse Prime Video and JioHotstar. No more opening a new tab to check ratings before watching.
 
 - **Prime Video** — hover any card → rating badge appears top-right of the thumbnail
 - **JioHotstar** — move cursor over any card → rating badge tracks the card, even as it expands
@@ -102,12 +102,12 @@ To use your own API key:
 
 ## Privacy
 
-StreamDB does **not**:
+IMDB Rating Chrome Extension does **not**:
 - Collect any user data
 - Track browsing history
 - Send any personal information anywhere
 
-The only external request made is to `api.omdbapi.com` with the movie/show title to fetch its rating. See the full [Privacy Policy](https://YOUR_USERNAME.github.io/streamdb-extension/privacy).
+The only external request made is to `api.omdbapi.com` with the movie/show title to fetch its rating. See the full [Privacy Policy](https://shrey-github.github.io/imdb-rating-chrome-extension/privacy).
 
 ---
 
